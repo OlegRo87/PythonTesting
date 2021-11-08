@@ -1,0 +1,14 @@
+1635327001700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SB8kmZUWBcWn"
+1635327003010	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile.SB8kmZUWBcWn/search.json.mozlz4", (void 0)))
+1635327004640	Marionette	INFO	Listening on port 38693
+1635327004730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.iw.4meayba48KI.2019.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/am=N5Qg/rt=j/d=1/rs=ACT90oFssISg_UcjeadFltMPA6EB3eJMLw, line 2116: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/maps/ line 1436 > injectedScript, line 9229: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1436 > injectedScript, line 9229: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1635327013745	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+GeckoDriver.prototype.minimizeWindow@chrome://remote/content/marionette/driver.js:2300:11
+1635327015349	Marionette	INFO	Stopped listening on port 38693
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
