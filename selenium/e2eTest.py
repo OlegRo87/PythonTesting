@@ -13,7 +13,7 @@ products = driver.find_elements_by_xpath('//div[@class="card h-100"]')
 # product =  '//div[@class="card h-100"]'
 
 for product in products:
-    prod_name = product.find_element_by_xpath('div/h4/a').text  # product + addition
+    prod_name = product.find_element_by_xpath('div/h4/a').text  # product + addition...
     if prod_name == "Blackberry":
         # //div[@class="card h-100"]/div/button
         product.find_element_by_xpath('div/button').click()
